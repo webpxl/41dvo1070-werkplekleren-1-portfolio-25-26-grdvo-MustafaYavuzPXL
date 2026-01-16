@@ -1,10 +1,301 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio – Mustafa Yavuz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">
+            <span class="logo-mark">M</span>
+            <span class="logo-text">Mustafa <span>Yavuz</span></span>
+        </a>
 
+        <button class="nav-toggle" aria-label="Open navigatie">☰</button>
+
+        <nav class="site-nav">
+            <ul>
+                <li><a href="#intro">Over mij</a></li>
+                <li><a href="#opleiding">Opleiding</a></li>
+                <li><a href="#projecten">Projecten</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="portfolio/index.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section id="intro" class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <p class="hero-kicker">DVO Student • Designer • Developer</p>
+                <h1>Hey, ik ben <span class="gradient-text">Mustafa Yavuz</span></h1>
+
+                <p class="hero-sub">
+                    Ik bouw digitale ervaringen met HTML, CSS en JavaScript.
+                    Creatief, leergierig en altijd bezig met dingen net wat cooler maken.
+                </p>
+
+                <div class="hero-tags">
+                    <span class="tag">Front-end en backend designer</span>
+                    <span class="tag">UI designer</span>
+                    <span class="tag">Problem solver</span>
+                </div>
+
+                <div class="hero-cta">
+                    <a href="#projecten" class="btn">Bekijk mijn projecten</a>
+                    <a href="portfolio/index.html" class="btn btn-ghost">Profiel & WPL1</a>
+                </div>
+            </div>
+
+            <div class="hero-card glass">
+                <h2>Over mij</h2>
+                <p>
+                    Ik studeer <strong>Digitale vormgeving</strong> aan Hogeschool PXL.
+                    Ik wil groeien tot iemand die zowel mooi kan ontwerpen als technisch kan uitwerken.
+                </p>
+                <ul class="info-list">
+                    <li><span>Naam</span><span>Mustafa Yavuz</span></li>
+                    <li><span>Opleiding</span><span>DVO – Hogeschool PXL</span></li>
+                    <li><span>Focus</span><span>Webdesign,frontend en backend</span></li>
+                    <li><span>E-mail</span><span>mustafa.yavuz@student.pxl.be</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="opleiding" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2>Waarom ik voor DVO koos</h2>
+                <p>
+                    Ik vond het altijd al fijn om mijn eigen websites tot leven te brengen toen ik een bacheloropleiding deed.
+                    Hierdoor koos ik voor DVO, want DVO geeft mij die combinatie van design en code.
+                </p>
+            </header>
+
+            <div class="grid-2">
+                <article class="card glass">
+                    <h3>Waarom deze opleiding?</h3>
+                    <p>Ik koos voor Digitale vormgeving omdat ik:</p>
+                    <ul>
+                        <li>Creatief bezig wil zijn met frontend en backend</li>
+                        <li>Technisch wil snappen hoe websites echt werken</li>
+                        <li>Graag met projecten en praktijk werk</li>
+                    </ul>
+                </article>
+
+                <article class="card glass">
+                    <h3>Waarom ik een goede designer / programmeur kan worden</h3>
+                    <p>Wat mij typeert:</p>
+                    <ul>
+                        <li>Ik let op details in layout, spacing en typografie</li>
+                        <li>Ik probeer mijn code netjes, duidelijk en gestructureerd te houden</li>
+                        <li>Ik leer snel en ik durf te experimenteren</li>
+                        <li>Ik sta open voor feedback en gebruik die om beter te worden</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="projecten" class="section section-alt">
+        <div class="container">
+            <header class="section-header">
+                <h2>Projecten</h2>
+                <p>
+                    Een aantal van mijn projecten die ik heb gemaakt tijdens mijn opleiding.
+                </p>
+            </header>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card glass">
+                    <div class="project-media">
+                        <img
+                                src="assets/projects/webshop.jpg"
+                                alt="Screenshot van webshop project"
+                                loading="lazy"
+                                width="1200"
+                                height="750"
+                        >
+                    </div>
+
+                    <div class="project-content">
+                        <div class="project-top">
+                            <span class="badge badge-school">Schoolproject</span>
+                            <span class="badge badge-tag">Scripting</span>
+                        </div>
+
+                        <h3>Webshop</h3>
+                        <p class="project-short">
+                            Een webshop-interface met dynamische functies en interactie met JavaScript.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card glass">
+                    <div class="project-media">
+                        <img
+                                src="assets/projects/datavis.jpg"
+                                alt="Screenshot van PE Data-visualisation"
+                                loading="lazy"
+                                width="1200"
+                                height="750"
+                        >
+                    </div>
+
+                    <div class="project-content">
+                        <div class="project-top">
+                            <span class="badge badge-school">Schoolproject</span>
+                            <span class="badge badge-tag">Data-visualisation</span>
+                        </div>
+
+                        <h3>PE Data-visualisation</h3>
+                        <p class="project-short">
+                            Een datavisualisatie die gegevens duidelijk en visueel aantrekkelijk toont.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card glass">
+                    <div class="project-media">
+                        <img
+                                src="assets/projects/ux2-app.jpg"
+                                alt="Screenshot van UX2 app design"
+                                loading="lazy"
+                                width="1200"
+                                height="750"
+                        >
+                    </div>
+
+                    <div class="project-content">
+                        <div class="project-top">
+                            <span class="badge badge-school">Schoolproject</span>
+                            <span class="badge badge-tag">UX2</span>
+                        </div>
+
+                        <h3>App design</h3>
+                        <p class="project-short">
+                            Een appconcept uitgewerkt met user flows, wireframes en een clickable prototype.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2>Soft skills & Hard skills</h2>
+                <p>Een overzicht van mijn persoonlijke skills en technische vaardigheden.</p>
+            </header>
+
+            <div class="skills-grid">
+                <!-- Soft skills -->
+                <article class="skills-card glass">
+                    <div class="skills-card__header">
+                        <h3>Soft skills</h3>
+                        <p>Hoe ik samenwerk en communiceer</p>
+                    </div>
+
+                    <div class="chip-grid">
+                        <span class="chip">Sociaal</span>
+                        <span class="chip">Groepswerker</span>
+                        <span class="chip">Feedbackgericht</span>
+                    </div>
+
+                    <div class="bar-list">
+                        <div class="bar">
+                            <div class="bar__top">
+                                <span>Communicatie</span><span>Strong</span>
+                            </div>
+                            <div class="bar__track"><div class="bar__fill" style="width: 85%"></div></div>
+                        </div>
+
+                        <div class="bar">
+                            <div class="bar__top">
+                                <span>Samenwerken</span><span>Strong</span>
+                            </div>
+                            <div class="bar__track"><div class="bar__fill" style="width: 80%"></div></div>
+                        </div>
+
+                        <div class="bar">
+                            <div class="bar__top">
+                                <span>Feedback verwerken</span><span>Good</span>
+                            </div>
+                            <div class="bar__track"><div class="bar__fill" style="width: 72%"></div></div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Hard skills -->
+                <article class="skills-card glass">
+                    <div class="skills-card__header">
+                        <h3>Hard skills</h3>
+                        <p>Tools en technieken die ik gebruik</p>
+                    </div>
+
+                    <div class="chip-grid">
+                        <span class="chip chip--accent">HTML</span>
+                        <span class="chip chip--accent">CSS</span>
+                        <span class="chip chip--accent">JavaScript</span>
+                        <span class="chip chip--accent">Chart.js</span>
+                    </div>
+
+                    <div class="bar-list">
+                        <div class="bar">
+                            <div class="bar__top">
+                                <span>HTML</span><span>Strong</span>
+                            </div>
+                            <div class="bar__track"><div class="bar__fill" style="width: 85%"></div></div>
+                        </div>
+
+                        <div class="bar">
+                            <div class="bar__top">
+                                <span>CSS</span><span>Good</span>
+                            </div>
+                            <div class="bar__track"><div class="bar__fill" style="width: 78%"></div></div>
+                        </div>
+
+                        <div class="bar">
+                            <div class="bar__top">
+                                <span>JavaScript</span><span>Growing</span>
+                            </div>
+                            <div class="bar__track"><div class="bar__fill" style="width: 62%"></div></div>
+                        </div>
+
+                        <div class="bar">
+                            <div class="bar__top">
+                                <span>Chart.js</span><span>Growing</span>
+                            </div>
+                            <div class="bar__track"><div class="bar__fill" style="width: 55%"></div></div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="site-footer">
+    <div class="container footer-inner">
+        <p>© <span id="year"></span> Mustafa Yavuz – DVO Student</p>
+        <div class="footer-links">
+            <a href="portfolio/index.html">/portfolio</a>
+            <a href="privacy.txt" target="_blank" rel="noopener noreferrer">Privacy-richtlijnen</a>
+            <a href="https://github.com/VoornaamAchternaamPXL" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
