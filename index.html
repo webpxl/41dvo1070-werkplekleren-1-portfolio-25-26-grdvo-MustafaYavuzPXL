@@ -107,23 +107,25 @@
         <div class="container">
             <header class="section-header">
                 <h2>Projecten</h2>
-                <p>
-                    Een aantal van mijn projecten die ik heb gemaakt tijdens mijn opleiding.
-                </p>
+                <p>Een aantal van mijn projecten die ik heb gemaakt tijdens mijn opleiding.</p>
             </header>
 
             <div class="projects-grid">
                 <!-- Project 1 -->
                 <article class="project-card glass">
-                    <div class="project-media">
+                    <button class="project-media lightbox-trigger"
+                            type="button"
+                            data-full="assets/webshop.jpg"
+                            aria-label="Vergroot screenshot van webshop project">
                         <img
-                                src="assets/projects/webshop.jpg"
+                                src="assets/webshop.jpg"
                                 alt="Screenshot van webshop project"
                                 loading="lazy"
                                 width="1200"
                                 height="750"
                         >
-                    </div>
+                        <span class="zoom-hint">Klik om te vergroten</span>
+                    </button>
 
                     <div class="project-content">
                         <div class="project-top">
@@ -140,15 +142,19 @@
 
                 <!-- Project 2 -->
                 <article class="project-card glass">
-                    <div class="project-media">
+                    <button class="project-media lightbox-trigger"
+                            type="button"
+                            data-full="assets/datavis.jpg"
+                            aria-label="Vergroot screenshot van PE Data-visualisation">
                         <img
-                                src="assets/projects/datavis.jpg"
+                                src="assets/datavis.jpg"
                                 alt="Screenshot van PE Data-visualisation"
                                 loading="lazy"
                                 width="1200"
                                 height="750"
                         >
-                    </div>
+                        <span class="zoom-hint">Klik om te vergroten</span>
+                    </button>
 
                     <div class="project-content">
                         <div class="project-top">
@@ -165,15 +171,19 @@
 
                 <!-- Project 3 -->
                 <article class="project-card glass">
-                    <div class="project-media">
+                    <button class="project-media lightbox-trigger"
+                            type="button"
+                            data-full="assets/ux2-app.jpg"
+                            aria-label="Vergroot screenshot van UX2 app design">
                         <img
-                                src="assets/projects/ux2-app.jpg"
+                                src="assets/ux2-app.jpg"
                                 alt="Screenshot van UX2 app design"
                                 loading="lazy"
                                 width="1200"
                                 height="750"
                         >
-                    </div>
+                        <span class="zoom-hint">Klik om te vergroten</span>
+                    </button>
 
                     <div class="project-content">
                         <div class="project-top">
@@ -283,9 +293,9 @@
             </div>
         </div>
     </section>
+</main>
 
-
-    <footer class="site-footer">
+<footer class="site-footer">
     <div class="container footer-inner">
         <p>© <span id="year"></span> Mustafa Yavuz – DVO Student</p>
         <div class="footer-links">
@@ -295,6 +305,20 @@
         </div>
     </div>
 </footer>
+
+<!-- LIGHTBOX (nodig voor vergroten) -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop"></div>
+
+    <div class="lightbox-panel glass" role="dialog" aria-modal="true" aria-label="Afbeelding vergroten">
+        <button class="lightbox-close" type="button" aria-label="Sluit">×</button>
+
+        <figure class="lightbox-figure">
+            <img id="lightbox-img" alt="">
+            <figcaption id="lightbox-caption"></figcaption>
+        </figure>
+    </div>
+</div>
 
 <script src="script.js"></script>
 </body>
