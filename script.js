@@ -1,4 +1,3 @@
-// Mobile nav toggle
 const navToggle = document.querySelector(".nav-toggle");
 const nav = document.querySelector(".site-nav");
 
@@ -7,11 +6,9 @@ if (navToggle && nav) {
     nav.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => nav.classList.remove("open")));
 }
 
-// Dynamisch jaartal
 const yearSpan = document.getElementById("year");
 if (yearSpan) yearSpan.textContent = new Date().getFullYear();
 
-/* ===== Lightbox ===== */
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 const lightboxCaption = document.getElementById("lightbox-caption");
@@ -20,7 +17,6 @@ const lightboxBackdrop = document.querySelector(".lightbox-backdrop");
 
 let lastFocusedElement = null;
 
-// Zoom state
 let scale = 1;
 let translateX = 0;
 let translateY = 0;
@@ -106,7 +102,6 @@ function closeLightbox() {
     }
 }
 
-// ✅ 1) Buttons met .lightbox-trigger
 document.querySelectorAll(".lightbox-trigger").forEach((el) => {
     el.addEventListener("click", () => {
         const img = el.querySelector("img");
@@ -116,7 +111,6 @@ document.querySelectorAll(".lightbox-trigger").forEach((el) => {
     });
 });
 
-// ✅ 2) ALSO: div.project-media (zonder .lightbox-trigger)
 document.querySelectorAll(".project-media").forEach((media) => {
     // Als het al een lightbox-trigger is, overslaan (anders dubbel)
     if (media.classList.contains("lightbox-trigger")) return;
@@ -132,7 +126,6 @@ document.querySelectorAll(".project-media").forEach((media) => {
     });
 });
 
-// Close actions
 if (lightboxClose) lightboxClose.addEventListener("click", closeLightbox);
 if (lightboxBackdrop) lightboxBackdrop.addEventListener("click", closeLightbox);
 
@@ -140,7 +133,6 @@ document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && lightbox?.classList.contains("is-visible")) closeLightbox();
 });
 
-// Zoom interactions
 if (lightboxImg) {
     lightboxImg.addEventListener("click", (e) => {
         if (!lightbox?.classList.contains("is-visible")) return;
