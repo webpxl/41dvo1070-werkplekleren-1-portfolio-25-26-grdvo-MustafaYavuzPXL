@@ -1,0 +1,10 @@
+Privacy-richtlijnen – Voornaam Achternaam
+
+Deze website wordt gemaakt in het kader van een schoolopdracht aan Hogeschool PXL.
+Ik verzamel zelf geen persoonsgegevens via formulieren of tracking.
+
+Gebruikte diensten:
+- GitHub Pages (of Netlify): voor het hosten van de website.
+
+Als je vragen hebt over deze website, kun je contact opnemen via:
+jouw.naam@pxl.be
