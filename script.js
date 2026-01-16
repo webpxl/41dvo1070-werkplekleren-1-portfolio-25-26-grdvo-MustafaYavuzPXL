@@ -174,3 +174,20 @@ if (lightboxImg) {
         lightbox?.classList.remove("is-dragging");
     });
 }
+
+const navToggle = document.querySelector(".nav-toggle");
+const nav = document.querySelector(".site-nav");
+
+if (navToggle && nav) {
+    navToggle.addEventListener("click", () => nav.classList.toggle("open"));
+
+    nav.querySelectorAll("a").forEach((a) => {
+        a.addEventListener("click", () => nav.classList.remove("open"));
+    });
+}
+
+const yearSpan = document.getElementById("year");
+if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
+}
+
