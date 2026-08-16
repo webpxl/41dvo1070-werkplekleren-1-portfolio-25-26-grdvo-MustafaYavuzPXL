@@ -1,31 +1,38 @@
-# Portfolio – Voornaam Achternaam
+# Portfolio - Mustafa Yavuz
 
 Dit is mijn persoonlijke portfolio-website voor de opdracht binnen de opleiding
-Digital Design & Development (DVO) aan Hogeschool PXL.
+Digitale Vormgeving aan Hogeschool PXL.
 
-## Gebruikte technologieën
+## Gebruikte technologieen
 
 - HTML
 - CSS
 - JavaScript
-- Git & GitHub
-- GitHub Pages (of Netlify) voor hosting
+- Git en GitHub
 
-## Structuur
+## Projectstructuur
 
-- `index.html` – hoofdpagina
-- `portfolio/index.html` – aparte /portfolio-pagina
-- `style.css` – algemene styling
-- `script.js` – interacties (navigatie, modal)
-- `privacy.txt` – privacy-richtlijnen
+- `index.html` - hoofdpagina van het portfolio
+- `style.css` - eenvoudige responsive styling
+- `script.js` - klein script voor het jaartal in de footer
+- `privacy.txt` - privacy-richtlijnen
+- `assets/` - projectafbeeldingen
+
+## GitHub repository
+
+- Classroom repository: `https://github.com/webpxl/41dvo1070-werkplekleren-1-portfolio-25-26-grdvo-MustafaYavuzPXL`
+
+## Publicatie
+
+- De site is bedoeld om online gepubliceerd te worden via GitHub Pages, Netlify of een gelijkaardige host.
 
 ## Bronnen
 
-Vul hier ALLE bronnen in die je gebruikt hebt, bijvoorbeeld:
-
-- Tekst/inspiratie: eigen notities + cursusmateriaal
-- Icons/afbeeldingen: (rechtenvrije sites zoals …)
+- Eigen projectmateriaal en eigen screenshots voor de projectafbeeldingen in `assets/`
+- Cursusinhoud en opdrachtbeschrijving van Hogeschool PXL als inhoudelijke basis
 - AI-tools:
-    - ChatGPT (OpenAI) – hulp bij structuur en basiscode website
+  - ChatGPT / Codex (OpenAI) - hulp bij structuur, herschrijven van content en vereenvoudigen van HTML/CSS/JS
 
-Zorg dat je per bron duidelijk noteert waar je ze voor gebruikt hebt.
+## Opmerking
+
+- De site gebruikt alleen HTML, CSS en plain JavaScript, zoals gevraagd in de opdracht.

@@ -1,10 +1,16 @@
-Privacy-richtlijnen – Voornaam Achternaam
+Privacy-richtlijnen - Mustafa Yavuz
 
-Deze website wordt gemaakt in het kader van een schoolopdracht aan Hogeschool PXL.
-Ik verzamel zelf geen persoonsgegevens via formulieren of tracking.
+Deze website werd gemaakt in het kader van een schoolopdracht aan Hogeschool PXL.
+De site gebruikt geen formulieren, cookies of trackingtools waarmee ik zelf persoonsgegevens verzamel.
+
+Mogelijke technische verwerking:
+- Wanneer de website online gepubliceerd wordt, kan de hostingpartij technische loggegevens verwerken
+  zoals een IP-adres, browserinformatie en het tijdstip van een bezoek.
+- Die verwerking gebeurt alleen om de website technisch beschikbaar te maken.
 
 Gebruikte diensten:
-- GitHub Pages (of Netlify): voor het hosten van de website.
+- GitHub als versiebeheer
+- Een publicatieplatform zoals GitHub Pages of Netlify voor hosting
 
-Als je vragen hebt over deze website, kun je contact opnemen via:
-jouw.naam@pxl.be
+Contact:
+- mustafa.yavuz@student.pxl.be

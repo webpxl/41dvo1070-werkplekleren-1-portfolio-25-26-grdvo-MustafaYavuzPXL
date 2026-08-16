@@ -3,315 +3,381 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio – Mustafa Yavuz</title>
+    <meta name="description" content="Portfolio van Mustafa Yavuz, student Digitale Vormgeving aan Hogeschool PXL.">
+    <title>Portfolio - Mustafa Yavuz</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<a class="skip-link" href="#main-content">Spring naar de inhoud</a>
+
 <header class="site-header">
     <div class="container header-inner">
-        <a href="index.html" class="logo">
-            <span class="logo-mark">M</span>
-            <span class="logo-text">Mustafa <span>Yavuz</span></span>
-        </a>
+        <a href="index.html" class="logo">Mustafa Yavuz</a>
 
-        <button class="nav-toggle" aria-label="Open navigatie">☰</button>
-
-        <nav class="site-nav">
+        <nav class="site-nav" aria-label="Hoofdnavigatie">
             <ul>
                 <li><a href="#intro">Over mij</a></li>
                 <li><a href="#opleiding">Opleiding</a></li>
-                <li><a href="#projecten">Projecten</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="portfolio/index.html">Portfolio</a></li>
+                <li><a href="#projecten">Projecten</a></li>
+                <li><a href="#groei">Groei</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
-<main>
+<main id="main-content">
     <section id="intro" class="hero">
-        <div class="container hero-inner">
-            <div class="hero-text">
-                <p class="hero-kicker">DVO Student • Designer • Developer</p>
-                <h1>Hey, ik ben <span class="gradient-text">Mustafa Yavuz</span></h1>
-
-                <p class="hero-sub">
-                    Ik bouw digitale ervaringen met HTML, CSS en JavaScript.
-                    Creatief, leergierig en altijd bezig met dingen net wat cooler maken.
+        <div class="container hero-grid">
+            <div class="hero-copy">
+                <p class="eyebrow">Portfolio DVO</p>
+                <h1>Ik ben Mustafa Yavuz, een student die design en code graag samenbrengt.</h1>
+                <p class="lead">
+                    Ik volg Digitale Vormgeving aan Hogeschool PXL en werk graag aan websites. Ik hou van een nette opbouw,
+                    eenvoudige oplossingen en ontwerpen die ook echt bruikbaar zijn.
                 </p>
 
-                <div class="hero-tags">
-                    <span class="tag">Front-end en backend designer</span>
-                    <span class="tag">UI designer</span>
-                    <span class="tag">Problem solver</span>
-                </div>
-
-                <div class="hero-cta">
-                    <a href="#projecten" class="btn">Bekijk mijn projecten</a>
-                    <a href="portfolio/index.html" class="btn btn-ghost">Profiel & WPL1</a>
+                <div class="button-row">
+                    <a class="btn" href="#projecten">Bekijk mijn projecten</a>
+                    <a class="btn btn-outline" href="#groei">Lees meer over mijn groei</a>
                 </div>
             </div>
 
-            <div class="hero-card glass">
-                <h2>Over mij</h2>
+            <article class="card">
+                <h2>Korte voorstelling</h2>
                 <p>
-                    Ik studeer <strong>Digitale vormgeving</strong> aan Hogeschool PXL.
-                    Ik wil groeien tot iemand die zowel mooi kan ontwerpen als technisch kan uitwerken.
+                    Ik ben Mustafa Yavuz. Wat mij speciaal maakt, is dat ik niet alleen naar het
+                    uiterlijk van een website kijk, maar ook naar de structuur en de code erachter.
                 </p>
+                <p>
+                    Ik ben iemand die graag rustig werkt. Ik hou van duidelijke
+                    layouts, nette code en stap voor stap verbeteren tot een project echt klopt.
+                </p>
+
                 <ul class="info-list">
                     <li><span>Naam</span><span>Mustafa Yavuz</span></li>
-                    <li><span>Opleiding</span><span>DVO – Hogeschool PXL</span></li>
-                    <li><span>Focus</span><span>Webdesign,frontend en backend</span></li>
+                    <li><span>Opleiding</span><span>Digitale Vormgeving - Hogeschool PXL</span></li>
+                    <li><span>Focus</span><span>HTML, CSS en JavaScript</span></li>
                     <li><span>E-mail</span><span>mustafa.yavuz@student.pxl.be</span></li>
                 </ul>
-            </div>
+            </article>
         </div>
     </section>
 
     <section id="opleiding" class="section">
         <div class="container">
             <header class="section-header">
+                <p class="eyebrow">Opleiding</p>
                 <h2>Waarom ik voor DVO koos</h2>
                 <p>
-                    Ik vond het altijd al fijn om mijn eigen websites tot leven te brengen toen ik een bacheloropleiding deed.
-                    Hierdoor koos ik voor DVO, want DVO geeft mij die combinatie van design en code.
+                    Ik koos voor deze opleiding omdat ik niet wilde kiezen tussen creatief werken
+                    en technisch denken. Bij DVO kan ik beide combineren en stap voor stap groeien
+                    als designer en programmeur, maar mijn focus ligt op het programmeren en heb dus voor web design gekozen.
                 </p>
             </header>
 
-            <div class="grid-2">
-                <article class="card glass">
-                    <h3>Waarom deze opleiding?</h3>
-                    <p>Ik koos voor Digitale vormgeving omdat ik:</p>
-                    <ul>
-                        <li>Creatief bezig wil zijn met frontend en backend</li>
-                        <li>Technisch wil snappen hoe websites echt werken</li>
-                        <li>Graag met projecten en praktijk werk</li>
+            <div class="grid-two">
+                <article class="card">
+                    <h3>Waarom deze opleiding bij mij past</h3>
+                    <ul class="bullet-list">
+                        <li>Ik werk graag aan schermen, layouts en visuele ontwerpen.</li>
+                        <li>Ik wil beter begrijpen hoe een website echt wordt opgebouwd.</li>
+                        <li>Ik leer graag via projecten waarin design en code samenkomen.</li>
                     </ul>
                 </article>
 
-                <article class="card glass">
-                    <h3>Waarom ik een goede designer / programmeur kan worden</h3>
-                    <p>Wat mij typeert:</p>
-                    <ul>
-                        <li>Ik let op details in layout, spacing en typografie</li>
-                        <li>Ik probeer mijn code netjes, duidelijk en gestructureerd te houden</li>
-                        <li>Ik leer snel en ik durf te experimenteren</li>
-                        <li>Ik sta open voor feedback en gebruik die om beter te worden</li>
+                <article class="card">
+                    <h3>Waarom ik een goede designer/programmeur kan zijn</h3>
+                    <ul class="bullet-list">
+                        <li>Ik let op details zoals spacing, structuur en leesbaarheid.</li>
+                        <li>Ik probeer mijn code eenvoudig, proper en overzichtelijk te houden.</li>
+                        <li>Ik neem feedback serieus en gebruik die om beter werk af te leveren.</li>
                     </ul>
                 </article>
             </div>
         </div>
     </section>
 
-    <section id="projecten" class="section section-alt">
+    <section id="skills" class="section section-soft">
         <div class="container">
             <header class="section-header">
-                <h2>Projecten</h2>
-                <p>Een aantal van mijn projecten die ik heb gemaakt tijdens mijn opleiding.</p>
+                <p class="eyebrow">Skills</p>
+                <h2>Wat ik al meebreng</h2>
+                <p>
+                    Naast projectwerk wil ik ook tonen welke eigenschappen en vaardigheden ik zelf
+                    belangrijk vind als designer en programmeur.
+                </p>
             </header>
 
-            <div class="projects-grid">
-                <article class="project-card glass">
-                    <button class="project-media lightbox-trigger"
-                            type="button"
-                            data-full="assets/webshop.jpg"
-                            aria-label="Vergroot screenshot van webshop project">
-                        <img
-                                src="assets/webshop.jpg"
-                                alt="Screenshot van webshop project"
-                                loading="lazy"
-                                width="1200"
-                                height="750"
-                        >
-                        <span class="zoom-hint">Klik om te vergroten</span>
-                    </button>
-
-                    <div class="project-content">
-                        <div class="project-top">
-                            <span class="badge badge-school">Schoolproject</span>
-                            <span class="badge badge-tag">Scripting</span>
-                        </div>
-
-                        <h3>Webshop</h3>
-                        <p class="project-short">
-                            Een webshop-interface met dynamische functies en interactie met JavaScript.
-                        </p>
-                    </div>
+            <div class="grid-two">
+                <article class="card">
+                    <h3>Hard skills</h3>
+                    <ul class="bullet-list">
+                        <li>HTML voor een duidelijke en semantische structuur</li>
+                        <li>CSS voor layout, kleur, typografie en responsive gedrag</li>
+                        <li>JavaScript voor eenvoudige interacties en dynamische onderdelen</li>
+                        <li>UX-denken om schermen logischer en gebruiksvriendelijker te maken</li>
+                    </ul>
                 </article>
 
-                <!-- Project 2 -->
-                <article class="project-card glass">
-                    <button class="project-media lightbox-trigger"
-                            type="button"
-                            data-full="assets/datavis.jpg"
-                            aria-label="Vergroot screenshot van PE Data-visualisation">
-                        <img
-                                src="assets/datavis.jpg"
-                                alt="Screenshot van PE Data-visualisation"
-                                loading="lazy"
-                                width="1200"
-                                height="750"
-                        >
-                        <span class="zoom-hint">Klik om te vergroten</span>
-                    </button>
+                <article class="card">
+                    <h3>Soft skills</h3>
+                    <ul class="bullet-list">
+                        <li>Ik sta open voor feedback en durf mijn werk bij te sturen.</li>
+                        <li>Ik probeer rustig te communiceren en duidelijk uit te leggen wat ik maak.</li>
+                        <li>Ik blijf oefenen tot een oplossing visueel en technisch goed aanvoelt.</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
 
-                    <div class="project-content">
-                        <div class="project-top">
-                            <span class="badge badge-school">Schoolproject</span>
-                            <span class="badge badge-tag">Data-visualisation</span>
-                        </div>
+    <section id="projecten" class="section section-soft">
+        <div class="container">
+            <header class="section-header">
+                <p class="eyebrow">Projecten</p>
+                <h2>Schoolprojecten en niet-schoolprojecten</h2>
+                <p>
+                    Hieronder toon ik projecten per categorie. Ik beschrijf niet alleen wat het
+                    eindresultaat was, maar ook voor welk vak het was en wat ik zelf precies deed.
+                </p>
+            </header>
 
-                        <h3>PE Data-visualisation</h3>
-                        <p class="project-short">
-                            Een datavisualisatie die gegevens duidelijk en visueel aantrekkelijk toont.
-                        </p>
+            <div class="project-groups">
+                <section class="project-group">
+                    <h3>Schoolprojecten</h3>
+
+                    <div class="project-grid">
+                        <article class="card project-card">
+                            <button class="image-button" type="button" aria-label="Vergroot afbeelding van webshop-interface">
+                                <img
+                                        class="project-image"
+                                        src="assets/webshop.jpg"
+                                        alt="Screenshot van een webshop interface"
+                                        loading="lazy"
+                                        width="1200"
+                                        height="750"
+                                >
+                            </button>
+                            <p class="project-meta">Vak: Scripting</p>
+                            <h4>Webshop-interface</h4>
+                            <p>
+                                Voor dit project maakte ik een webshopinterface met een duidelijke
+                                lay-out en interactieve onderdelen in JavaScript.
+                            </p>
+                            <ul class="bullet-list">
+                                <li><strong>Mijn rol:</strong> ik bouwde de structuur en styling van de pagina op.</li>
+                                <li><strong>Wat ik deed:</strong> ik werkte interactieve functies uit in plain JavaScript.</li>
+                                <li><strong>Wat ik leerde:</strong> overzicht en gebruiksgemak zijn heel belangrijk in een webshop.</li>
+                            </ul>
+                        </article>
+
+                        <article class="card project-card">
+                            <button class="image-button" type="button" aria-label="Vergroot afbeelding van PE Data-visualisation">
+                                <img
+                                        class="project-image"
+                                        src="assets/datavis.jpg"
+                                        alt="Screenshot van een data visualisation project"
+                                        loading="lazy"
+                                >
+                            </button>
+                            <p class="project-meta">Vak: PE Data-visualisation</p>
+                            <h4>PE Data-visualisation</h4>
+                            <p>
+                                In dit project moest informatie visueel duidelijk worden voorgesteld.
+                                Ik werkte op structuur, contrast en leesbaarheid.
+                            </p>
+                            <ul class="bullet-list">
+                                <li><strong>Mijn rol:</strong> ik hielp de inhoud logisch op te delen.</li>
+                                <li><strong>Wat ik deed:</strong> ik koos mee hoe de data visueel het best kon worden getoond.</li>
+                                <li><strong>Wat ik leerde:</strong> een goede visualisatie vraagt evenveel nadenken als een goed design.</li>
+                            </ul>
+                        </article>
+
+                        <article class="card project-card">
+                            <button class="image-button" type="button" aria-label="Vergroot afbeelding van appconcept">
+                                <img
+                                        class="project-image"
+                                        src="assets/ux2-app.jpg"
+                                        alt="Screenshot van een appconcept"
+                                        loading="lazy"
+                                >
+                            </button>
+                            <p class="project-meta">Vak: UX2</p>
+                            <h4>Appconcept</h4>
+                            <p>
+                                Voor UX2 werkte ik een appidee uit met user flows, schermen en een
+                                duidelijke navigatie.
+                            </p>
+                            <ul class="bullet-list">
+                                <li><strong>Mijn rol:</strong> ik dacht na over de volgorde van schermen en acties.</li>
+                                <li><strong>Wat ik deed:</strong> ik maakte wireframes en werkte het visuele concept verder uit.</li>
+                                <li><strong>Wat ik leerde:</strong> een sterk UX-plan maakt het design veel duidelijker.</li>
+                            </ul>
+                        </article>
                     </div>
+                </section>
+
+                <section class="project-group">
+                    <h3>Niet-schoolprojecten</h3>
+
+                    <div class="project-grid">
+                        <article class="card project-card">
+                            <button class="image-button" type="button" aria-label="Vergroot afbeelding van MustiBoard">
+                                <img
+                                        class="project-image"
+                                        src="assets/mustiboard.png"
+                                        alt="Screenshot van MustiBoard, een eigen Discord soundboard"
+                                        loading="lazy"
+                                >
+                            </button>
+
+                            <p class="project-meta">Niet-schoolproject</p>
+                            <h4>MustiBoard</h4>
+                            <p>
+                                MustiBoard is mijn eigen versie van een Soundboard voor Discord.
+                                Het idee is dat je geluiden kan beheren en ze via je microfoon kan
+                                laten afspelen tijdens het praten of gamen met vrienden.
+                            </p>
+                            <ul class="bullet-list">
+                                <li><strong>Mijn rol:</strong> ik werkte dit project uit als een eigen tool voor mijn Discordgebruik.</li>
+                                <li><strong>Wat je ermee kan doen:</strong> geluiden uploaden, categorieen maken, filteren en snel terugvinden.</li>
+                                <li><strong>Belangrijkste functie:</strong> geluiden laten afspelen via je microfoon, zoals bij je kan doen bij de originele Soundboard dat te verkrijgen is op Steam.</li>
+                                <li><strong>Wat ik leerde:</strong> zo'n tool moet niet alleen werken, maar ook snel en overzichtelijk blijven in gebruik.</li>
+                            </ul>
+                        </article>
+
+                        <article class="card project-card project-card--wide">
+                            <div class="project-gallery">
+                                <button class="image-button" type="button" aria-label="Vergroot homepagina van de Booooosted website">
+                                    <img
+                                            class="project-image"
+                                            src="assets/booooosted-home.png"
+                                            alt="Homepagina van de Booooosted website voor een Discordserver"
+                                            loading="lazy"
+                                    >
+                                </button>
+
+                                <button class="image-button" type="button" aria-label="Vergroot clippagina van de Booooosted website">
+                                    <img
+                                            class="project-image"
+                                            src="assets/booooosted-clips.png"
+                                            alt="Clippagina van de Booooosted website waar gebruikers clips kunnen uploaden"
+                                            loading="lazy"
+                                    >
+                                </button>
+
+                                <button class="image-button" type="button" aria-label="Vergroot spellenpagina van de Booooosted website">
+                                    <img
+                                            class="project-image"
+                                            src="assets/booooosted-games.png"
+                                            alt="Spellenpagina van de Booooosted website met simpele games"
+                                            loading="lazy"
+                                    >
+                                </button>
+                            </div>
+
+                            <p class="project-meta">Niet-schoolproject</p>
+                            <h4>Booooosted website voor mijn Discordserver</h4>
+                            <p>
+                                Dit is een website die ik maakte voor mijn Discordserver met vrienden.
+                                Het is een eigen hub waar we niet alleen samenkomen, maar ook clips,
+                                posts en leuke extra's op één plaats kunnen terugvinden.
+                            </p>
+                            <ul class="bullet-list">
+                                <li><strong>Mijn rol:</strong> ik werkte de website uit als een centrale plek voor onze vriendengroep.</li>
+                                <li><strong>Wat je ermee kan doen:</strong> clips uploaden, simpele games spelen en een blog/feed gebruiken die werkt als een eigen versie van X.</li>
+                                <li><strong>Extra functies:</strong> de site heeft verschillende pagina's zoals home, clips, blog, spellen en online/community-onderdelen.</li>
+                                <li><strong>Wat ik leerde:</strong> zo'n project toont hoe je een communitysite niet alleen mooi, maar ook bruikbaar en leuk kan maken.</li>
+                            </ul>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <section id="groei" class="section">
+        <div class="container">
+            <header class="section-header">
+                <p class="eyebrow">Groei</p>
+                <h2>Hoe ik mezelf zie binnen DVO</h2>
+                <p>
+                    Naast mijn projecten wil ik ook tonen hoe ik mezelf zie als student
+                    Digitale Vormgeving en wat ik meeneem uit mijn leerproces.
+                </p>
+            </header>
+
+            <div class="grid-two">
+                <article class="card">
+                    <h3>Mijn profiel binnen DVO</h3>
+                    <ul class="bullet-list">
+                        <li><strong>Creatieve vormgever:</strong> ik let op compositie, kleur, witruimte en leesbaarheid.</li>
+                        <li><strong>Front-end ontwikkelaar:</strong> ik bouw graag duidelijke schermen met HTML, CSS en JavaScript.</li>
+                        <li><strong>Communicator:</strong> ik probeer helder te praten over mijn werk en sneller feedback te vragen.</li>
+                        <li><strong>Levenslang lerend:</strong> ik zie elk project als een kans om beter te worden.</li>
+                    </ul>
                 </article>
 
-                <article class="project-card glass">
-                    <button class="project-media lightbox-trigger"
-                            type="button"
-                            data-full="assets/ux2-app.jpg"
-                            aria-label="Vergroot screenshot van UX2 app design">
-                        <img
-                                src="assets/ux2-app.jpg"
-                                alt="Screenshot van UX2 app design"
-                                loading="lazy"
-                                width="1200"
-                                height="750"
-                        >
-                        <span class="zoom-hint">Klik om te vergroten</span>
-                    </button>
+                <article class="card">
+                    <h3>Wat ik meeneem uit WPL1</h3>
+                    <ul class="bullet-list">
+                        <li><strong>Sterkte:</strong> ik werk door tot een resultaat technisch en visueel klopt.</li>
+                        <li><strong>Werkpunt:</strong> ik wil vroeger starten met testen en feedback vragen.</li>
+                        <li><strong>Focus:</strong> consistenter plannen en sneller keuzes vastleggen.</li>
+                        <li><strong>Reflectie:</strong> ik leer het meeste wanneer design en code samenkomen in één proces.</li>
+                    </ul>
 
-                    <div class="project-content">
-                        <div class="project-top">
-                            <span class="badge badge-school">Schoolproject</span>
-                            <span class="badge badge-tag">UX2</span>
-                        </div>
-
-                        <h3>App design</h3>
-                        <p class="project-short">
-                            Een appconcept uitgewerkt met user flows, wireframes en een clickable prototype.
-                        </p>
+                    <div class="button-row">
+                        <a class="btn btn-outline" href="Mustafa_Yavuz_Profiel_DVO_WPL1.pdf" target="_blank" rel="noopener noreferrer">Open de PDF</a>
                     </div>
                 </article>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="section">
+    <section id="contact" class="section section-soft">
         <div class="container">
-            <header class="section-header">
-                <h2>Soft skills & Hard skills</h2>
-                <p>Een overzicht van mijn persoonlijke skills en technische vaardigheden.</p>
-            </header>
+            <article class="card contact-card">
+                <div>
+                    <p class="eyebrow">Contact en opdrachtcheck</p>
+                    <h2>Praktische info</h2>
+                    <p>
+                        Deze website hoort bij mijn portfolio-opdracht voor PXL. De site bevat een
+                        privacy-link, staat in de verplichte GitHub Classroom-repository en is bedoeld
+                        om later online gepubliceerd te worden via een eigen URL.
+                    </p>
+                </div>
 
-            <div class="skills-grid">
-                <article class="skills-card glass">
-                    <div class="skills-card__header">
-                        <h3>Soft skills</h3>
-                        <p>Hoe ik samenwerk en communiceer</p>
-                    </div>
-
-                    <div class="chip-grid">
-                        <span class="chip">Sociaal</span>
-                        <span class="chip">Groepswerker</span>
-                        <span class="chip">Feedbackgericht</span>
-                    </div>
-
-                    <div class="bar-list">
-                        <div class="bar">
-                            <div class="bar__top">
-                                <span>Communicatie</span><span>Strong</span>
-                            </div>
-                            <div class="bar__track"><div class="bar__fill" style="width: 85%"></div></div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="bar__top">
-                                <span>Samenwerken</span><span>Strong</span>
-                            </div>
-                            <div class="bar__track"><div class="bar__fill" style="width: 80%"></div></div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="bar__top">
-                                <span>Feedback verwerken</span><span>Good</span>
-                            </div>
-                            <div class="bar__track"><div class="bar__fill" style="width: 72%"></div></div>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="skills-card glass">
-                    <div class="skills-card__header">
-                        <h3>Hard skills</h3>
-                        <p>Tools en technieken die ik gebruik</p>
-                    </div>
-
-                    <div class="chip-grid">
-                        <span class="chip chip--accent">HTML</span>
-                        <span class="chip chip--accent">CSS</span>
-                        <span class="chip chip--accent">JavaScript</span>
-                        <span class="chip chip--accent">Chart.js</span>
-                    </div>
-
-                    <div class="bar-list">
-                        <div class="bar">
-                            <div class="bar__top">
-                                <span>HTML</span><span>Strong</span>
-                            </div>
-                            <div class="bar__track"><div class="bar__fill" style="width: 85%"></div></div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="bar__top">
-                                <span>CSS</span><span>Good</span>
-                            </div>
-                            <div class="bar__track"><div class="bar__fill" style="width: 78%"></div></div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="bar__top">
-                                <span>JavaScript</span><span>Growing</span>
-                            </div>
-                            <div class="bar__track"><div class="bar__fill" style="width: 62%"></div></div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="bar__top">
-                                <span>Chart.js</span><span>Growing</span>
-                            </div>
-                            <div class="bar__track"><div class="bar__fill" style="width: 55%"></div></div>
-                        </div>
-                    </div>
-                </article>
-            </div>
+                <ul class="bullet-list">
+                    <li>E-mail: <a href="mailto:mustafa.yavuz@student.pxl.be">mustafa.yavuz@student.pxl.be</a></li>
+                    <li>Repository: <a href="https://github.com/webpxl/41dvo1070-werkplekleren-1-portfolio-25-26-grdvo-MustafaYavuzPXL" target="_blank" rel="noopener noreferrer">GitHub Classroom</a></li>
+                    <li>Privacy: <a href="privacy.txt" target="_blank" rel="noopener noreferrer">privacy.txt</a></li>
+                    <li>Techniek: deze site gebruikt alleen HTML, CSS en plain JavaScript.</li>
+                    <li>Responsive: de lay-out is opgebouwd voor smartphone, tablet en desktop.</li>
+                </ul>
+            </article>
         </div>
     </section>
 </main>
 
 <footer class="site-footer">
     <div class="container footer-inner">
-        <p>© <span id="year"></span> Mustafa Yavuz – DVO Student</p>
+        <p>&copy; <span data-year></span> Mustafa Yavuz - DVO student</p>
         <div class="footer-links">
-            <a href="portfolio/index.html">/portfolio</a>
             <a href="privacy.txt" target="_blank" rel="noopener noreferrer">Privacy-richtlijnen</a>
-            <a href="https://github.com/VoornaamAchternaamPXL" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://github.com/webpxl/41dvo1070-werkplekleren-1-portfolio-25-26-grdvo-MustafaYavuzPXL" target="_blank" rel="noopener noreferrer">GitHub repository</a>
         </div>
     </div>
 </footer>
 
 <div class="lightbox" id="lightbox" aria-hidden="true">
-    <div class="lightbox-backdrop"></div>
-
-    <div class="lightbox-panel glass" role="dialog" aria-modal="true" aria-label="Afbeelding vergroten">
-        <button class="lightbox-close" type="button" aria-label="Sluit">×</button>
-
-        <figure class="lightbox-figure">
-            <img id="lightbox-img" alt="">
-            <figcaption id="lightbox-caption"></figcaption>
-        </figure>
+    <button class="lightbox-backdrop" type="button" aria-label="Sluit vergrote afbeelding"></button>
+    <div class="lightbox-content" role="dialog" aria-modal="true" aria-label="Vergrote projectafbeelding">
+        <button class="lightbox-close" type="button" aria-label="Sluit">&times;</button>
+        <img id="lightbox-image" alt="">
+        <p id="lightbox-caption"></p>
     </div>
 </div>
 
